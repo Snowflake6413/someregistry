@@ -1,0 +1,18 @@
+{
+  "friendly_name": "Cherry Studio",
+  "description": "Desktop LLM Client - A cross-platform AI chat client for interacting with large language models.",
+  "image_src": "icon.png",
+  "architecture": ["amd64"],
+  "categories": ["Development", "Productivity"],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "ghcr.io/snowflake6413/cherryka:latest",
+      "uncompressed_size_mb": 3500
+    }
+  ],
+  "run_config": {
+    "user": "1000"
+  },
+  "notes": "Cherry Studio v1.7.15 running on Ubuntu Jammy."
+}
