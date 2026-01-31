@@ -1,0 +1,22 @@
+{
+    "friendly_name": "OrpheusVM",
+    "description": "Pre-configured development environment for reviewing projects. Based off Ubuntu 24.04 (Noble Numbat)",
+    "image_src": "orpheus.png",
+    "architecture": ["amd64"],
+    "compatibility": [
+        {
+            "version": "1.18.x",
+            "image": "ghcr.io/snowflake6413/ntsh:latest",
+            "uncompressed_size_mb": 8000,
+            "available_tags": ["latest", "stable"]
+        }
+    ],
+    "categories": ["Development", "Desktop"],
+    "run_config": {},
+    "exec_config": {},
+    "notes": "Includes Node.js 22, Python 3, Rust, Java 21, Go, VS Code, Firefox, Chrome, Insomnia, MongoDB Compass, SQLite Browser, Prism Launcher, Slack, and Wine.",
+    "cores": 2,
+    "memory": 4096,
+    "gpu_count": 0,
+    "cpu_allocation_method": "Inherit"
+}
